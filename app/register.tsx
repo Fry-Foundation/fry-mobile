@@ -55,7 +55,7 @@ export default function RegisterScreen() {
             <View style={styles.stepLine} />
             <View style={styles.stepItem}>
               <View style={[styles.stepCircle, styles.stepInactive]}>
-                <Text style={[styles.stepNum, { color: Colors.dim }}>2</Text>
+                <Text style={[styles.stepNum, { color: Colors.dim }]}>2</Text>
               </View>
               <Text style={[styles.stepLabel, { color: Colors.dim }]}>Confirm</Text>
             </View>

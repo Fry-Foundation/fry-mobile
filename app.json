@@ -12,7 +12,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#09090b"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": false,
       "bundleIdentifier": "com.frynetworks.mobile"
@@ -23,7 +25,9 @@
         "backgroundColor": "#09090b"
       },
       "package": "com.frynetworks.mobile",
-      "permissions": ["android.permission.CAMERA"]
+      "permissions": [
+        "android.permission.CAMERA"
+      ]
     },
     "plugins": [
       "expo-router",
@@ -33,7 +37,8 @@
           "cameraPermission": "Allow Fry Networks to use the camera for scanning device QR codes."
         }
       ],
-      "expo-font"
+      "expo-font",
+      "expo-asset"
     ],
     "experiments": {
       "typedRoutes": true
